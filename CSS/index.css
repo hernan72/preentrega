@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin:0px;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+body{
+    font-family:lato, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+header{
+    background-color: rgb(167, 210, 236);
+    border:2px solid;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display:flex;
+    list-style-type:none;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+.prod-section{
+    background-color: rgb(167, 210, 236);
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+
+.titulo-form{
+    text-align: center;
+    padding:5% 0%;
+}
+.titulo-prod{
+    text-align: center;
+    padding:5% 0%;
+
+}
+
+.flex-container{
+display:flex;
+flex-wrap: wrap;
+justify-content:center;
+gap: 6px;
+
+}
+
+/*
+.flex-container > div {
+  min-width: 200px;
+  /*  O usa width: 200px;  para un tamaño fijo
+}
+
+.flex-container > div > p {
+  flex-shrink: 0; Evita que el <p> reduzca el tamaño del div 
+}
+*/
+
+
+
+.item{
+text-align: center;
+border:2px solid red;
+border-radius: 10px;
+}
+.foto-item{
+
+
+
+}
+.nombre-item{
+    font-size: x-large;
+    font-weight: 800;
+}
+.pais-item{
+    font-size:large;
+    text-align: center;
+
+}
+.boton-item{
+    background-color:white;
+    color:blue;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 2%;
+    margin:10px;
+   
+
+
+}
+.boton-item:hover{
+    border: 2px solid;
+    background-color: blue;
+    color:white;
+    cursor:pointer;
+    
+}
+
+.form-section{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+
+footer{
+
+    background-color:rgb(167, 210, 236);
+    color:black;
+    text-align: center;
+    padding:5%;
+    border:2px solid black;
+    border-radius: 10px;
+    
+
+}
+
+/*Media queries*/
+
+@media only screen and (max-width:600px){
+.form-section{
+    background-color: rgb(196, 255, 203);
+}
+
+
+@media only screen and (max-width:400px){
+header{
+display:flex;
+   flex-direction: column;
+}
+
+
+}
